@@ -5,16 +5,14 @@ import { BoxReveal } from "../../components/magicui/box-reveal";
 
 const Beranda = () => {
   return (
-    <div className="relative mt-10 min-h-[500px] md:min-h-[600px] overflow-hidden">
-      {/* CD sebagai background */}
+    <div className="relative  min-h-[500px] md:min-h-[600px] overflow-hidden">
       <div className="absolute inset-0 z-0 w-full h-full">
         <CD />
       </div>
 
-      {/* Konten utama di atas background */}
       <div
         className="relative z-10 flex flex-col-reverse md:flex-row items-center
-       justify-between h-full px-6 lg:mt-35 md:px-16 pt-8 md:pt-0"
+       justify-between h-full px-6 lg:mt-0 md:px-16 pt-8 md:pt-0"
       >
         {/* Teks di kiri */}
         <div className="w-full md:w-1/2 text-center md:text-left mt-6 md:mt-0 space-y-4">
@@ -43,10 +41,7 @@ const Beranda = () => {
           </BoxReveal>
 
           <BoxReveal boxColor={"#3b82f6"} duration={1.2}>
-            <div
-              className="mt-2 flex flex-col sm:flex-row gap-4 justify-center md:flex-row
-              items-center"
-            >
+            <div className="mt-2 flex flex-wrap justify-center items-center gap-4">
               <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300">
                 <i className="ri-discord-fill text-gray-800 mr-2"></i> Join
                 Discord
@@ -54,17 +49,20 @@ const Beranda = () => {
               <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300">
                 Beli Rank
               </button>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300">
+                <i class="ri-chat-poll-fill bg-gray-900 mr-2"></i> Voting Server
+              </button>
             </div>
           </BoxReveal>
         </div>
 
         {/* Gambar PNG di kanan */}
         <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-          <div className="w-full md:w-1/2 flex justify-center md:justify-end lg:-translate-x-10 transition-transform duration-300">
+          <div className="w-full md:w-2/2 flex justify-center md:justify-end ">
             <img
               src={ImageKanan}
               alt="Gambar Kanan"
-              className="w-52 sm:w-64 md:w-[500px] lg:w-[550px] object-contain drop-shadow-lg"
+              className="w-52 sm:w-64 md:w-[400px] lg:w-[600px] xl:w-[700px] object-contain drop-shadow-lg"
             />
           </div>
         </BoxReveal>
