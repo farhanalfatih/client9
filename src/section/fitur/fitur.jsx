@@ -37,7 +37,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section id="fitur" className=" text-black py-20 px-6">
+    <section id="fitur" className=" dark:text-white  text-black py-20 px-6">
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">Kenapa Pilih Kami?</h2>
         <p className="text-lg opacity-90">

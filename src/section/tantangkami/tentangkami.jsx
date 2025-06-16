@@ -2,7 +2,7 @@ import React from "react";
 
 const TentangKami = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center p-6 gap-8">
+    <div id="tentangkami" className="flex flex-col md:flex-row items-center justify-center p-6 gap-8">
       {/* Kiri: Foto */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
@@ -14,8 +14,8 @@ const TentangKami = () => {
 
       {/* Kanan: Teks */}
       <div className="md:w-8/12 w-full space-y-6">
-        <h2 className="text-4xl font-bold mb-4 text-black">Tentang Kami</h2>
-        <p className="text-gray-600 text-lg leading-relaxed">
+        <h2 className=" dark:text-white text-4xl font-bold mb-4 text-black">Tentang Kami</h2>
+        <p className=" dark:text-white text-gray-600 text-lg leading-relaxed">
           <span className="text-amber-400 font-semibold">DragonsOof</span>{" "}
           adalah server Minecraft survival 24/7 dengan mekanik custom dan fitur
           unik yang dirancang untuk menghadirkan pengalaman bermain yang beda
@@ -23,7 +23,7 @@ const TentangKami = () => {
           eksplorasi, dan komunitas aktif!
         </p>
 
-        <p className="text-gray-600  text-lg leading-relaxed">
+        <p className=" dark:text-white text-gray-600  text-lg leading-relaxed">
           Dari sistem{" "}
           <span className="text-amber-400 font-semibold">Custom Fishing</span>,{" "}
           <span className="text-amber-400 font-semibold">Global Event</span>,

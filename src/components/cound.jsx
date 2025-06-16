@@ -23,7 +23,7 @@ const CloudBackground = () => {
   });
 
   return (
-    <div className="relative w-full h-screen bg-sky-100 overflow-hidden z-0">
+    <div className="relative w-full h-screen  overflow-hidden z-0">
       {clouds.map((cloud) => (
         <div
           key={cloud.id}

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
 
-      <footer className="bg-white  text-black p-10 flex flex-wrap justify-between gap-5">
+      <footer className="dark:bg-black dark:text-white bg-white  text-black p-10 flex flex-wrap justify-between gap-5">
         {/* Bagian Media Sosial */}
         <div className="min-w-[250px]">
           <h3 className="text-xl mb-4 border-b-2 border-gray-400 inline-block pb-1">
@@ -76,22 +76,22 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="/" className="hover:underline">
+              <a href="#home" className="hover:underline">
                 Beranda
               </a>
             </li>
             <li>
-              <a href="/tentang" className="hover:underline">
+              <a href="#tentangkami" className="hover:underline">
                 Tentang Kami
               </a>
             </li>
             <li>
-              <a href="/fitur" className="hover:underline">
+              <a href="#fitur" className="hover:underline">
                 Fitur
               </a>
             </li>
             <li>
-              <a href="/rank" className="hover:underline">
+              <a href="#rank" className="hover:underline">
                 Rank
               </a>
             </li>
@@ -100,7 +100,7 @@ const Footer = () => {
       </footer>
 
       {/* Bagian Copyright */}
-      <div className=" bg-white  text-black text-center text-xs py-3">
+      <div className=" dark:bg-black dark:text-white bg-white  text-black text-center text-xs py-3">
         Copyright &copy; farhanalfatih
       </div>
     </>

@@ -203,12 +203,12 @@ Catatan: ${note}`;
   };
 
   return (
-    <div className="px-4 py-10">
+    <div id="rank" className="px-4 py-10">
       <div className="text-center mb-10">
-        <h1 className="text-black font-bold text-3xl">
+        <h1 className="dark:text-white  text-black font-bold text-3xl">
           Pilih Rank Sesuai Mode Favoritmu
         </h1>
-        <p className="text-black font-medium text-lg mt-2">
+        <p className="dark:text-white text-black font-medium text-lg mt-2">
           Setiap Tier memiliki rank & fitur unik di Skyblock dan Survival.
         </p>
       </div>
@@ -220,13 +220,13 @@ Catatan: ${note}`;
             className="flex flex-col justify-between bg-white/10 backdrop-blur-sm rounded-xl shadow-md p-4 border hover:shadow-xl transition duration-300 text-sm"
           >
             <div>
-              <h2 className="text-lg font-bold text-black mb-2">{tier.tier}</h2>
+              <h2 className=" dark:text-white text-lg font-bold text-black mb-2">{tier.tier}</h2>
               {tier.modes.map((mode, i) => (
                 <div key={i} className="mb-3">
-                  <h3 className="font-semibold text-black">
+                  <h3 className=" dark:text-white font-semibold text-black">
                     {mode.mode}: <span className="text-indigo-600">{mode.rank}</span>
                   </h3>
-                  <ul className="list-disc list-inside text-gray-700 text-xs">
+                  <ul className=" dark:text-white list-disc list-inside text-gray-700 text-xs">
                     {mode.features.map((f, idx) => (
                       <li key={idx}>{f}</li>
                     ))}
@@ -251,18 +251,18 @@ Catatan: ${note}`;
       <AnimatePresence>
         {selectedTier && (
           <motion.div
-            className="fixed inset-0 bg-white/40 backdrop-blur-sm flex items-center justify-center z-50 overflow-y-auto"
+            className=" fixed inset-0 bg-white/40 backdrop-blur-sm flex items-center justify-center z-50 overflow-y-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="bg-white rounded-xl p-6 w-full max-w-md shadow-lg"
+              className="dark:bg-black dark:text-white bg-white rounded-xl p-6 w-full max-w-md shadow-lg"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
             >
-              <h2 className="text-xl font-bold text-center mb-4 text-black">
+              <h2 className=" dark:text-white text-xl font-bold text-center mb-4 text-black">
                 Pembelian {selectedTier.tier}
               </h2>
               <div className="space-y-3 text-sm">
