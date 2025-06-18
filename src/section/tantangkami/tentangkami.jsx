@@ -14,26 +14,13 @@ const TentangKami = () => {
 
       {/* Kanan: Teks */}
       <div className="md:w-8/12 w-full space-y-6">
-        <h2 className=" dark:text-white text-4xl font-bold mb-4 text-black">Tentang Kami</h2>
-        <p className=" dark:text-white text-gray-600 text-lg leading-relaxed">
-          <span className="text-amber-400 font-semibold">DragonsOof</span>{" "}
-          adalah server Minecraft survival 24/7 dengan mekanik custom dan fitur
-          unik yang dirancang untuk menghadirkan pengalaman bermain yang beda
-          dari yang lain. Server ini cocok buat kamu yang suka grind,
-          eksplorasi, dan komunitas aktif!
+        <h2 className="dark:text-white text-4xl font-bold mb-4 text-black">Tentang Kami</h2>
+        <p className="dark:text-white text-gray-600 text-lg leading-relaxed">
+          <span className="text-amber-400 font-semibold">DragonsOof</span> adalah server Minecraft Indonesia yang telah berdiri sejak tahun 2022. Dibangun dan dikembangkan oleh <span className="font-semibold text-amber-400">DragonFix</span> bersama timnya, DragonsOof hadir sebagai komunitas dan terus berkembang untuk memberikan pengalaman bermain terbaik bagi para pemain.
         </p>
 
-        <p className=" dark:text-white text-gray-600  text-lg leading-relaxed">
-          Dari sistem{" "}
-          <span className="text-amber-400 font-semibold">Custom Fishing</span>,{" "}
-          <span className="text-amber-400 font-semibold">Global Event</span>,
-          sampai{" "}
-          <span className="text-amber-400 font-semibold">
-            Battlepass & Land Protect
-          </span>
-          —semuanya bisa kamu nikmati tanpa harus top-up mahal. Semangat kami
-          adalah menghadirkan gameplay yang seru, progresif, dan bisa dinikmati
-          semua player.
+        <p className="dark:text-white text-gray-600 text-lg leading-relaxed">
+          Kini, DragonsOof menghadirkan dua pilihan gamemode utama: <span className="text-amber-400 font-semibold">Survival</span> dan <span className="text-amber-400 font-semibold">Skyblock</span>, yang dirancang dengan sistem dan fitur eksklusif untuk menambah tantangan serta keseruan dalam bermain.
         </p>
 
         <div className="mt-6 flex gap-4 flex-col sm:flex-row">

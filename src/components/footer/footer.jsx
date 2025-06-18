@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
 
-      <footer className="dark:bg-black dark:text-white bg-white  text-black p-10 flex flex-wrap justify-between gap-5">
+      <footer className="dark:bg-black dark:text-white bg-sky-100 text-black p-10 flex flex-wrap justify-between gap-5">
         {/* Bagian Media Sosial */}
         <div className="min-w-[250px]">
           <h3 className="text-xl mb-4 border-b-2 border-gray-400 inline-block pb-1">
@@ -100,7 +100,7 @@ const Footer = () => {
       </footer>
 
       {/* Bagian Copyright */}
-      <div className=" dark:bg-black dark:text-white bg-white  text-black text-center text-xs py-3">
+      <div className=" dark:bg-black dark:text-white bg-sky-100  text-black text-center text-xs py-3">
         Copyright &copy; farhanalfatih
       </div>
     </>
