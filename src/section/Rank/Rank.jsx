@@ -1,6 +1,6 @@
 import React from "react";
 import diamond from "../../assets/gambar.png";
-import emerald from "../../assets/gambar.png"; // Ganti sesuai path gambar kamu
+import emerald from "../../assets/image1.png"; // Ganti sesuai path gambar kamu
 
 const products = [
   {
