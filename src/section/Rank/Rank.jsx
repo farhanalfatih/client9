@@ -23,22 +23,28 @@ const OurProducts = () => {
       </h2>
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 px-6">
         {products.map((product) => (
-  <div
-    key={product.name}
-    className="bg-white dark:bg-[#252533] p-6 rounded-xl shadow-md w-[250px] text-center border border-gray-300 dark:border-gray-600"
-  >
-    <img
-      src={product.image}
-      alt={product.name}
-      className="w-24 h-24 mx-auto mb-6"
-    />
-    <h3 className="text-xl font-bold text-orange-400">{product.name}</h3>
-    <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-      Start from <span>{product.price}</span>
-    </p>
-  </div>
-))}
-
+          <a
+            key={product.name}
+            href="https://example.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="no-underline"
+          >
+            <div className="bg-white dark:bg-[#252533] p-6 rounded-xl shadow-md w-[250px] text-center border border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform duration-200">
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-24 h-24 mx-auto mb-6"
+              />
+              <h3 className="text-xl font-bold text-orange-400">
+                {product.name}
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                Start from <span>{product.price}</span>
+              </p>
+            </div>
+          </a>
+        ))}
       </div>
     </div>
   );

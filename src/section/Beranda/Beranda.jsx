@@ -44,7 +44,7 @@ const Beranda = () => {
 
           <BoxReveal boxColor={"#3b82f6"} duration={1.2}>
             <div className="mt-2 flex flex-wrap justify-center items-center gap-4">
-              <a href="https://discord.gg/dragonsoof" target="_blank">
+              <a href="" target="_blank">
                 <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300">
                   <i className="ri-discord-fill text-white mr-2"></i> Join
                   Discord
@@ -55,7 +55,7 @@ const Beranda = () => {
                   <i className="ri-store-fill text-white mr-2"></i> Beli Rank
                 </button>
               </a>
-              <a href=""  className="no-underline" target="_blank">
+              <a href="https://minecraft-mp.com/server/344148/vote/"  className="no-underline" target="_blank">
                 <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300">
                   <i className="ri-chat-poll-fill text-white mr-2"></i>
                    Voting Server

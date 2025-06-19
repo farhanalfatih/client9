@@ -11,46 +11,30 @@ const Footer = () => {
           <h3 className="text-xl mb-4 border-b-2 border-gray-400 inline-block pb-1">
             Social Media
           </h3>
-          <div className="flex gap-4">
-            <a
-              href="https://github.com/farhanalfatih"
-              aria-label="github"
-              className="w-10 h-10 bg-gray-700 flex items-center justify-center
-                             rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
-            >
-              <i className="ri-github-line"></i>
-            </a>
+            <div className="flex gap-4">
             <a
               href="https://www.tiktok.com/@allnaaaaaaa"
               aria-label="TIKTOK"
               className="w-10 h-10 bg-gray-700 flex items-center justify-center
-                             rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
+                            rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
             >
               <i className="ri-tiktok-fill"></i>
             </a>
-            <a
-              href="https://x.com/Kodee_kuu"
-              aria-label="Twitter"
+             <a
+              href="https://www.tiktok.com/@allnaaaaaaa"
+              aria-label="TIKTOK"
               className="w-10 h-10 bg-gray-700 flex items-center justify-center
-                             rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
+                            rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
             >
-              <i className="ri-twitter-line"></i>
+              <i class="ri-youtube-fill"></i>
             </a>
-            <a
-              href="https://www.instagram.com/aalnaaaaaa/"
-              aria-label="Instagram"
+             <a
+              href="https://www.tiktok.com/@allnaaaaaaa"
+              aria-label="TIKTOK"
               className="w-10 h-10 bg-gray-700 flex items-center justify-center
-                             rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
+                            rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
             >
-              <i className="ri-instagram-line"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/farhan-alfatih/"
-              aria-label="LinkedIn"
-              className="w-10 h-10 bg-gray-700 flex items-center justify-center
-                             rounded-full text-white text-lg hover:bg-gray-800 transition-colors"
-            >
-              <i className="ri-linkedin-line"></i>
+              <i class="ri-instagram-fill"></i>
             </a>
           </div>
         </div>
@@ -101,7 +85,7 @@ const Footer = () => {
 
       {/* Bagian Copyright */}
       <div className=" dark:bg-black dark:text-white bg-sky-100  text-black text-center text-xs py-3">
-        Copyright &copy; farhanalfatih
+        Copyright &copy; dragonsoof 2025. All rights reserved.
       </div>
     </>
   );
