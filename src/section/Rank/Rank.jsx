@@ -25,7 +25,7 @@ const OurProducts = () => {
         {products.map((product) => (
           <a
             key={product.name}
-            href="https://example.com"
+            href="https://store.dragonsoof.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline"

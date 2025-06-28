@@ -1,4 +1,5 @@
 import React from "react";
+import Gambar from "../../assets/aboutimg.jpg"
 
 const TentangKami = () => {
   return (
@@ -6,7 +7,7 @@ const TentangKami = () => {
       {/* Kiri: Foto */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
-          src="https://placehold.co/600x400"
+          src={Gambar}
           alt="Tentang Kami"
           className="rounded-xl shadow-lg max-w-full h-auto"
         />
@@ -25,9 +26,9 @@ const TentangKami = () => {
 
         <div className="mt-6 flex gap-4 flex-col sm:flex-row">
           <div className="bg-white text-slate-800 px-4 py-3 rounded-lg shadow flex items-center justify-between w-full sm:w-auto">
-            <span className="mr-4 font-mono text-sm">DragonsOof.my.id</span>
+            <span className="mr-4 font-mono text-sm">dragonsoof.net</span>
             <button
-              onClick={() => navigator.clipboard.writeText("DragonsOof.my.id")}
+              onClick={() => navigator.clipboard.writeText("dragonsoof.net")}
               className="text-sky-600 hover:text-sky-800 transition"
             >
               Salin
