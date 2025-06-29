@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "remixicon/fonts/remixicon.css";
 import gambar from "../../assets/gambar.png";
 import ModeToggle from "../ModeToggle";
+// import Bahasa from "../bahasa/bahasa"
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -45,12 +46,11 @@ const Navbar = () => {
 
           {/* Menu */}
           <ul
-  className={`flex lg:gap-8 md:static md:flex-row md:shadow-none md:bg-transparent
+            className={`flex lg:gap-8 md:static md:flex-row md:shadow-none md:bg-transparent
     md:w-auto md:h-full md:translate-y-0 gap-6 fixed ${menuAktive}
     top-0 w-full h-screen pt-24 md:pt-0 px-6 flex-col rounded-none shadow-lg bg-background font-bold
     text-foreground md:flex md:items-center items-start text-left transition-all duration-300`}
->
-
+          >
             <li className="opacity-90 hover:opacity-100 px-3 py-1">
               <a href="#home" className="block">
                 Beranda
@@ -80,8 +80,9 @@ const Navbar = () => {
                 <i className="ri-discord-fill text-white mr-2"></i> Join Discord
               </a>
             </li>
-            <li className="md: px-5 py-1">
+            <li className=" flex gap-5 md:px-5 py-1">
               <ModeToggle />
+              {/* <Bahasa /> */}
             </li>
           </ul>
 
