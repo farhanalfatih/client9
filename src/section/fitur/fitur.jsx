@@ -10,7 +10,7 @@ const features = [
   },
   {
     title: "Global Event",
-    desc: "Event besar yang melibatkan seluruh pemain, hadir secara berkala!",
+    desc: "Rasakan petualangan epik dengan event besar penuh tantangan dan hadiah langka!",
     icon: "ri-earth-line",
   },
   {
@@ -26,12 +26,37 @@ const features = [
   {
     title: "Land Protect",
     desc: "Lindungi wilayah kamu dari grief! Sistem klaim tanah yang mudah dan aman.",
-    icon: "ri-shield-check-line", // Ganti ikon agar relevan dengan "proteksi"
+    icon: "ri-shield-check-line",
   },
   {
     title: "Economy & Battlepass",
     desc: "Dapatkan reward dari sistem ekonomi & battlepass yang aktif dan update!",
     icon: "ri-trophy-line",
+  },
+  {
+    title: "Custom World",
+    desc: "Jelajahi dunia unik yang dirancang indah, dengan bioma yang belum pernah kamu temui!",
+    icon: "ri-landscape-line",
+  },
+  {
+    title: "Gameplay Imersif",
+    desc: "Dari ekonomi dinamis hingga interaksi sosial — dunia Minecraft terasa hidup!",
+    icon: "ri-gamepad-line",
+  },
+  {
+    title: "Brand New Experience",
+    desc: "Gebrakan baru dengan plugin dan mekanisme inovatif yang ubah cara main Minecraft!",
+    icon: "ri-lightbulb-flash-line",
+  },
+  {
+    title: "Crossplatform (Java & Bedrock)",
+    desc: "Main bareng tanpa batas! Java & Bedrock bisa gabung dalam satu server!",
+    icon: "ri-device-line",
+  },
+  {
+    title: "Voice Chat & EmoteCraft",
+    desc: "Komunikasi langsung dan ekspresi karakter bebas dengan mod Voice & EmoteCraft!",
+    icon: "ri-mic-line",
   },
 ];
 

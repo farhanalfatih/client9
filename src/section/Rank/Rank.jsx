@@ -7,11 +7,13 @@ const products = [
     name: "Ranks",
     image: diamond,
     price: "Rp.9.900",
+    link: "https://store.dragonsoof.com/ranks",
   },
   {
     name: "Gems",
     image: emerald,
     price: "Rp.1.000",
+    link: "https://store.dragonsoof.com/",
   },
 ];
 
@@ -25,7 +27,7 @@ const OurProducts = () => {
         {products.map((product) => (
           <a
             key={product.name}
-            href="https://store.dragonsoof.com/"
+            href={product.link}
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline"
