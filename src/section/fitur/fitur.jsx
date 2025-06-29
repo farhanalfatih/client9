@@ -1,22 +1,16 @@
 import React from "react";
-import 'remixicon/fonts/remixicon.css';
-
+import "remixicon/fonts/remixicon.css";
 
 const features = [
-  {
-    title: "Custom Fishing",
-    desc: "Nikmati sistem mancing yang unik dan seru, beda dari server biasa!",
-    icon: "ri-fish-line",
-  },
   {
     title: "Global Event",
     desc: "Rasakan petualangan epik dengan event besar penuh tantangan dan hadiah langka!",
     icon: "ri-earth-line",
   },
   {
-    title: "Custom Survival Mechanic",
-    desc: "Pengalaman survival baru dengan mekanik yang menantang dan fresh!",
-    icon: "ri-tools-line",
+    title: "Crossplatform (Java & Bedrock)",
+    desc: "Main bareng tanpa batas! Pengguna Java dan Bedrock bisa bermain bersama di server kami. Ajak semua teman, tak peduli apa platform mereka!",
+    icon: "ri-global-line", // Kamu bisa ganti ke ri-device-line kalau mau
   },
   {
     title: "RPG Wannabe",
@@ -27,11 +21,6 @@ const features = [
     title: "Land Protect",
     desc: "Lindungi wilayah kamu dari grief! Sistem klaim tanah yang mudah dan aman.",
     icon: "ri-shield-check-line",
-  },
-  {
-    title: "Economy & Battlepass",
-    desc: "Dapatkan reward dari sistem ekonomi & battlepass yang aktif dan update!",
-    icon: "ri-trophy-line",
   },
   {
     title: "Custom World",
@@ -49,11 +38,6 @@ const features = [
     icon: "ri-lightbulb-flash-line",
   },
   {
-    title: "Crossplatform (Java & Bedrock)",
-    desc: "Main bareng tanpa batas! Java & Bedrock bisa gabung dalam satu server!",
-    icon: "ri-device-line",
-  },
-  {
     title: "Voice Chat & EmoteCraft",
     desc: "Komunikasi langsung dan ekspresi karakter bebas dengan mod Voice & EmoteCraft!",
     icon: "ri-mic-line",
@@ -62,11 +46,12 @@ const features = [
 
 const Features = () => {
   return (
-    <section id="fitur" className=" dark:text-white  text-black py-20 px-6">
+    <section id="fitur" className="dark:text-white text-black py-20 px-6">
       <div className="container mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">fitur unggulan server kami</h2>
+        <h2 className="text-4xl font-bold mb-4">Fitur Unggulan Server Kami</h2>
         <p className="text-lg opacity-90">
-          Kami menghadirkan pengalaman Minecraft survival yang seru, aman, dan adil untuk semua pemain!
+          Kami menghadirkan pengalaman Minecraft survival yang seru, aman, dan
+          adil untuk semua pemain!
         </p>
       </div>
 
