@@ -29,7 +29,7 @@ const Beranda = () => {
           </BoxReveal>
 
           <BoxReveal boxColor={"#38bdf8"} duration={0.5}>
-            <p className="font-bold text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed">
+            <p className="font-bold text-gray-800 dark:text-blue-800 text-base sm:text-lg leading-relaxed">
               {t("home.description.part1")}{" "}
               <span className="text-sky-400 font-semibold">
                 {t("home.description.custom")}
