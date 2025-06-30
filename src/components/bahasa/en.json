@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "features": "Features",
+    "rank": "Ranks",
+    "join_discord": "Join Discord"
+  },
+  "tentangKami": {
+    "title": "About Us",
+    "p1": "<0>DragonsOof</0> is an Indonesian Minecraft server that has been operating since 2022. Built and developed by <1>DragonFix</1> and his team, DragonsOof has grown into a community striving to provide the best gameplay experience for players.",
+    "p2": "Now, DragonsOof offers two main gamemode options: <0>Survival</0> and <1>Skyblock</1>, designed with exclusive systems and features to enhance the challenge and excitement of playing.",
+    "ip": "dragonsoof.net",
+    "port": "Port: 19132",
+    "salin": "Copy"
+  },
+
+  "home": {
+    "title_pre": "Welcome to",
+    "brand": "DragonsOof",
+    "description": {
+      "part1": "Survival isn't boring anymore! Enjoy features like",
+      "custom": "Custom Survival",
+      "fishing": "Fishing & Economy",
+      "land": "Land Protect",
+      "battlepass": "Battlepass",
+      "part2": "in a 24/7 living world. Build, survive, and become a legend!"
+    },
+    "discord": "Join Discord",
+    "buy_rank": "Buy Rank",
+    "vote": "Vote Server"
+  },
+  "features": {
+    "title": "Our Server's Featured Features",
+    "desc": "We bring you a fun, safe, and fair Minecraft survival experience for all players!",
+    "list": [
+      {
+        "title": "Global Event",
+        "desc": "Experience epic adventures with big events full of challenges and rare rewards!"
+      },
+      {
+        "title": "Crossplatform (Java & Bedrock)",
+        "desc": "Play together without limits! Java and Bedrock users can play together on our server."
+      },
+      {
+        "title": "RPG Wannabe",
+        "desc": "Level up, unlock skills, and progress like a real RPG game!"
+      },
+      {
+        "title": "Land Protect",
+        "desc": "Protect your land from griefers! Easy and safe land claim system."
+      },
+      {
+        "title": "Custom World",
+        "desc": "Explore uniquely designed worlds with stunning biomes you've never seen before!"
+      },
+      {
+        "title": "Immersive Gameplay",
+        "desc": "From dynamic economy to social interaction — Minecraft world feels alive!"
+      },
+      {
+        "title": "Brand New Experience",
+        "desc": "A fresh breakthrough with innovative plugins and mechanics that change how you play Minecraft!"
+      },
+      {
+        "title": "Voice Chat & EmoteCraft",
+        "desc": "Communicate and express freely using Voice Chat & EmoteCraft mods!"
+      }
+    ]
+  },
+  "products": {
+    "title": "Our Products",
+    "start_from": "Start from"
+  },
+    "footer": {
+    "social": "Social Media",
+    "contact": "Contact",
+    "location": "Indonesia",
+    "section": "Navigation",
+    "rights": "All rights reserved."
+  }
+
+}

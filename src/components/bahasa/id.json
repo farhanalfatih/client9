@@ -1,0 +1,82 @@
+{
+
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "features": "Fitur",
+    "rank": "Rank",
+    "join_discord": "Join Discord"
+  },
+  "tentangKami": {
+    "title": "Tentang Kami",
+    "p1": "<0>DragonsOof</0> adalah server Minecraft Indonesia yang telah berdiri sejak tahun 2022. Dibangun dan dikembangkan oleh <1>DragonFix</1> bersama timnya, DragonsOof hadir sebagai komunitas dan terus berkembang untuk memberikan pengalaman bermain terbaik bagi para pemain.",
+    "p2": "Kini, DragonsOof menghadirkan dua pilihan gamemode utama: <0>Survival</0> dan <1>Skyblock</1>, yang dirancang dengan sistem dan fitur eksklusif untuk menambah tantangan serta keseruan dalam bermain.",
+    "ip": "dragonsoof.net",
+    "port": "Port: 19132",
+    "salin": "Salin"
+  },
+  "home": {
+    "title_pre": "Selamat Datang di",
+    "brand": "DragonsOof",
+    "description": {
+      "part1": "Main survival nggak lagi biasa-biasa aja! Nikmati fitur",
+      "custom": "Custom Survival",
+      "fishing": "Fishing & Economy",
+      "land": "Land Protect",
+      "battlepass": "Battlepass",
+      "part2": "dalam dunia yang hidup 24/7. Bangun, bertahan, dan jadi legenda!"
+    },
+    "discord": "Join Discord",
+    "buy_rank": "Beli Rank",
+    "vote": "Voting Server"
+  },
+  "features": {
+    "title": "Fitur Unggulan Server Kami",
+    "desc": "Kami menghadirkan pengalaman Minecraft survival yang seru, aman, dan adil untuk semua pemain!",
+    "list": [
+      {
+        "title": "Global Event",
+        "desc": "Rasakan petualangan epik dengan event besar penuh tantangan dan hadiah langka!"
+      },
+      {
+        "title": "Crossplatform (Java & Bedrock)",
+        "desc": "Main bareng tanpa batas! Pengguna Java dan Bedrock bisa bermain bersama di server kami. Ajak semua teman, tak peduli apa platform mereka!"
+      },
+      {
+        "title": "RPG Wannabe",
+        "desc": "Level, skill, dan progres ala game RPG. Bikin main jadi makin immersive!"
+      },
+      {
+        "title": "Land Protect",
+        "desc": "Lindungi wilayah kamu dari grief! Sistem klaim tanah yang mudah dan aman."
+      },
+      {
+        "title": "Custom World",
+        "desc": "Jelajahi dunia unik yang dirancang indah, dengan bioma yang belum pernah kamu temui!"
+      },
+      {
+        "title": "Gameplay Imersif",
+        "desc": "Dari ekonomi dinamis hingga interaksi sosial — dunia Minecraft terasa hidup!"
+      },
+      {
+        "title": "Brand New Experience",
+        "desc": "Gebrakan baru dengan plugin dan mekanisme inovatif yang ubah cara main Minecraft!"
+      },
+      {
+        "title": "Voice Chat & EmoteCraft",
+        "desc": "Komunikasi langsung dan ekspresi karakter bebas dengan mod Voice & EmoteCraft!"
+      }
+    ]
+  },
+  "products": {
+    "title": "Produk Kami",
+    "start_from": "Mulai dari"
+  },
+  "footer": {
+    "social": "Media Sosial",
+    "contact": "Kontak",
+    "location": "Indonesia",
+    "section": "Navigasi",
+    "rights": "Seluruh hak cipta dilindungi."
+  }
+}

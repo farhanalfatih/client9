@@ -1,28 +1,17 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import translationEN from "./components/bahasa/en.json";
+import translationID from "./components/bahasa/id.json";
 
-// Data bahasa
 const resources = {
-  en: {
-    translation: {
-      welcome: "Welcome to our server!",
-      feature_title: "Features",
-      buy_now: "Buy Now",
-    },
-  },
-  id: {
-    translation: {
-      welcome: "Selamat datang di server kami!",
-      feature_title: "Fitur",
-      buy_now: "Beli Sekarang",
-    },
-  },
+  en: { translation: translationEN },
+  id: { translation: translationID },
 };
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: "id", // default bahasa
-  fallbackLng: "en", // fallback kalau tidak ada terjemahan
+  lng: localStorage.getItem("i18nextLng") || "id", // baca dari localStorage
+  fallbackLng: "id",
   interpolation: {
     escapeValue: false,
   },

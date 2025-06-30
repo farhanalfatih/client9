@@ -1,58 +1,27 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "remixicon/fonts/remixicon.css";
 
-const features = [
-  {
-    title: "Global Event",
-    desc: "Rasakan petualangan epik dengan event besar penuh tantangan dan hadiah langka!",
-    icon: "ri-earth-line",
-  },
-  {
-    title: "Crossplatform (Java & Bedrock)",
-    desc: "Main bareng tanpa batas! Pengguna Java dan Bedrock bisa bermain bersama di server kami. Ajak semua teman, tak peduli apa platform mereka!",
-    icon: "ri-global-line", // Kamu bisa ganti ke ri-device-line kalau mau
-  },
-  {
-    title: "RPG Wannabe",
-    desc: "Level, skill, dan progres ala game RPG. Bikin main jadi makin immersive!",
-    icon: "ri-sword-line",
-  },
-  {
-    title: "Land Protect",
-    desc: "Lindungi wilayah kamu dari grief! Sistem klaim tanah yang mudah dan aman.",
-    icon: "ri-shield-check-line",
-  },
-  {
-    title: "Custom World",
-    desc: "Jelajahi dunia unik yang dirancang indah, dengan bioma yang belum pernah kamu temui!",
-    icon: "ri-landscape-line",
-  },
-  {
-    title: "Gameplay Imersif",
-    desc: "Dari ekonomi dinamis hingga interaksi sosial — dunia Minecraft terasa hidup!",
-    icon: "ri-gamepad-line",
-  },
-  {
-    title: "Brand New Experience",
-    desc: "Gebrakan baru dengan plugin dan mekanisme inovatif yang ubah cara main Minecraft!",
-    icon: "ri-lightbulb-flash-line",
-  },
-  {
-    title: "Voice Chat & EmoteCraft",
-    desc: "Komunikasi langsung dan ekspresi karakter bebas dengan mod Voice & EmoteCraft!",
-    icon: "ri-mic-line",
-  },
+const iconList = [
+  "ri-earth-line",
+  "ri-global-line",
+  "ri-sword-line",
+  "ri-shield-check-line",
+  "ri-landscape-line",
+  "ri-gamepad-line",
+  "ri-lightbulb-flash-line",
+  "ri-mic-line"
 ];
 
 const Features = () => {
+  const { t } = useTranslation();
+  const features = t("features.list", { returnObjects: true });
+
   return (
     <section id="fitur" className="dark:text-white text-black py-20 px-6">
       <div className="container mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">Fitur Unggulan Server Kami</h2>
-        <p className="text-lg opacity-90">
-          Kami menghadirkan pengalaman Minecraft survival yang seru, aman, dan
-          adil untuk semua pemain!
-        </p>
+        <h2 className="text-4xl font-bold mb-4">{t("features.title")}</h2>
+        <p className="text-lg opacity-90">{t("features.desc")}</p>
       </div>
 
       <div className="container mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -61,7 +30,7 @@ const Features = () => {
             key={index}
             className="bg-white/10 backdrop-blur-sm rounded-xl p-6 flex flex-col items-start shadow hover:shadow-lg transition duration-300"
           >
-            <i className={`${feature.icon} text-3xl text-sky-300 mb-4`}></i>
+            <i className={`${iconList[index]} text-3xl text-sky-300 mb-4`}></i>
             <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
             <p className="text-sm opacity-80">{feature.desc}</p>
           </div>
