@@ -12,14 +12,12 @@ const Beranda = () => {
       id="home"
       className="relative min-h-[500px] md:min-h-[600px] overflow-hidden"
     >
-      {/* Background animasi / visual */}
+
       <div className="absolute inset-0 z-0 w-full h-full">
         <CD />
       </div>
 
-      {/* Konten utama */}
       <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between h-full px-6 lg:mt-0 md:px-16 pt-8 md:pt-0">
-        {/* Teks di kiri */}
         <div className="w-full md:w-1/2 text-center md:text-left mt-6 md:mt-0 space-y-4">
           <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -29,7 +27,7 @@ const Beranda = () => {
           </BoxReveal>
 
           <BoxReveal boxColor={"#38bdf8"} duration={0.5}>
-            <p className="font-bold text-gray-800 dark:text-blue-800 text-base sm:text-lg leading-relaxed">
+            <p className="font-bold text-gray-800 dark:text-white text-base sm:text-lg leading-relaxed">
               {t("home.description.part1")}{" "}
               <span className="text-sky-400 font-semibold">
                 {t("home.description.custom")}
@@ -71,7 +69,6 @@ const Beranda = () => {
           </BoxReveal>
         </div>
 
-        {/* Gambar PNG di kanan */}
         <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
           <div className="w-full md:w-2/2 flex justify-center md:justify-end">
             <img

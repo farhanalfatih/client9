@@ -8,7 +8,7 @@ const products = [
     name: "Ranks",
     image: diamond,
     price: "Rp.9.900",
-    link: "https://store.dragonsoof.com/ranks",
+    link: "https://store.dragonsoof.com/rank",
   },
   {
     name: "Gems",
